@@ -108,7 +108,7 @@ def fetch_exchange_rate(date, currency_code):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("方法: python3 yourcode.py date currency_code")
+        print("方法: python3 scraping.py date currency_code")
     else:
         date = sys.argv[1]
         currency_code = sys.argv[2]
